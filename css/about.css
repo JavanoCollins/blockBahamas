@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: 'Raleway', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /*--------
+  ---------- REUSABLE CODE
+  --------*/
+  
+  .btn {
+    display: inline-block;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    background: #00bfd3;
+    padding: 9px;
+    margin-top: 9px;;
+    border-radius: 5px;
+    transition: color 0.2s, background 0.2s;
+  }
+  
+  .btn:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #de2f00;
+    border-radius: 5px;
+    transition: color 0.2s, background 0.2s;
+  }
+  
+  #navbar .current {
+    color: #fff;
+    background: #de2f00;
+    border-radius: 5px;
+  }
+  
+  .red-word {
+    color: #de2f00;
+  }
+  
+  
+  /*--------
+  ---------- NAVIGATION BAR
+  --------*/
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 0.8em; 
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.34);
+    z-index: 1;
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #navbar li {
+    flex: 1;
+  }
+  
+  
+  #navbar ul li a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.8em;
+    transition: background 0.2s, border-radius 0.2s
+  }
+  
+  #navbar ul li a:hover {
+    background: #de2f00;
+    color: #fff;
+    border-radius: 7px;
+    transition: background 0.2s, border-radius 0.2s;
+  }
+  
+  #logo {
+    width: 220px;
+  }
+  
+  #logo:hover {
+    width: 222px;
+  }
+
+  /* Heading */
+
+#heading {
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #de2f00;
+    padding: 2rem 5rem;
+    font-weight: 800;
+    line-height: 1;
+    animation-delay: 0.8s;
+}
+
+#slogan {
+    padding: 1rem 5rem;
+    color: #ccc;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#about-us {
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.7;
+    animation-delay: 0.8s;
+    width: 80%;
+    padding: 2rem 5rem;
+}
+
