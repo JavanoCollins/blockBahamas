@@ -74,3 +74,20 @@
 iframe {
     margin: 2rem 5rem;
 }
+
+#block-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #000;
+  padding: 2rem 5rem;
+  font-weight: 800;
+  line-height: 1;
+  animation-delay: 0.8s;
+}
+
+#blockchain-info {
+  width: 70%;
+  margin: 2rem 5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
