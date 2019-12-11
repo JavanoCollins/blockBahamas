@@ -11,3 +11,18 @@ loginButton.addEventListener("click", () => {
     login.style.display = "none";
   }
 });
+
+// OOP
+
+Person = (name, dob) => {
+  this.name = name;
+  this.birthday = new Date(dob);
+  this.calculate = () => {
+    const diff = Date.now() - this.birthday.getTime();
+    const ageDate = new Date(diff);
+    return Math.abs(ageDate.getUTCFullYear() - 1970)
+  }
+}
+
+const jd = new Person("Javano")
+
