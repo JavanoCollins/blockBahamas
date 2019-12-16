@@ -12,7 +12,7 @@ loginButton.addEventListener("click", () => {
   }
 });
 
-// OOP
+OOP
 
 Person = (name, dob) => {
   this.name = name;
@@ -25,4 +25,3 @@ Person = (name, dob) => {
 }
 
 const jd = new Person("Javano")
-
